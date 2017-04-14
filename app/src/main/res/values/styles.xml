@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Gryffindor" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/gryffindor5</item>
+        <item name="colorPrimaryDark">@color/gryffindor3</item>
+        <item name="colorAccent">@color/gryffindor2</item>
+        <item name="android:colorBackground">@color/gryffindor4</item>
+        <item name="android:statusBarColor">@color/gryffindor3</item>
+    </style>
+
+    <style name="slytherin" parent="AppTheme" >
+        <item name="colorPrimary">@color/slytherin1</item>
+        <item name="colorPrimaryDark">@color/slytherin4</item>
+        <item name="colorAccent">@color/slytherin5</item>
+        <item name="android:colorBackground">@color/slytherin2</item>
+        <item name="android:textColorPrimaryInverse">@color/slytherin5</item>
+        <item name="android:textColorPrimary">@android:color/background_light</item>
+        <item name="colorButtonNormal">@color/gol2</item>
+        <item name="colorControlHighlight">@color/gryffindor1</item>
+    </style>
+
+    <style name="gol" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/gol2</item>
+        <item name="colorPrimaryDark">@color/gol1</item>
+        <item name="colorAccent">@color/gol1</item>
+        <item name="android:colorBackground">@color/gol5</item>
+        <item name="android:colorForeground">@color/gol2</item>
+        <item name="android:navigationBarColor">@color/gol2</item>
+    </style>
+
+    <style name="green" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorPrimary">@color/green3</item>
+        <item name="colorPrimaryDark">@color/green2</item>
+        <item name="colorAccent">@color/green1</item>
+        <item name="android:colorBackground">@color/green4</item>
+        <item name="android:colorForeground">@color/green5</item>
+        <item name="android:navigationBarColor">@color/green3</item>
+    </style>
+
+    <style name="hufflepuff" parent="green" >
+        <item name="colorPrimary">@color/hp3</item>
+        <item name="colorPrimaryDark">@color/hp4</item>
+        <item name="colorAccent">@color/hp3</item>
+        <item name="android:colorBackground">@color/hp2</item>
+        <item name="android:colorForeground">@color/hp1</item>
+        <item name="android:navigationBarColor">@color/hp3</item>
+    </style>
+
+    <style name="pastel" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/pastel5</item>
+        <item name="colorPrimaryDark">@color/pastel2</item>
+        <item name="colorAccent">@color/pastel4</item>
+        <item name="android:colorBackground">@color/pastel1</item>
+        <item name="android:colorForeground">@color/pastel3</item>
+        <item name="android:navigationBarColor">@color/pastel5</item>
+    </style>
+
+    <style name="rc" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorPrimary">@color/rc1</item>
+        <item name="colorPrimaryDark">@color/rc1</item>
+        <item name="colorAccent">@color/rc4</item>
+        <item name="android:colorBackground">@color/rc2</item>
+        <item name="android:navigationBarColor">@color/rc1</item>
+        <item name="android:textColorPrimary">@android:color/background_light</item>
+        <item name="android:colorForeground">@color/rc4</item>
+        <item name="android:textColorSecondaryInverse">@color/rc4</item>
+        <item name="android:textColorSecondary">@color/rc5</item>
+    </style>
+
+</resources>
